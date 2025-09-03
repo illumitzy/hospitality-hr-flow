@@ -2,65 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* HR-4 Hotel & Restaurant Management System Design System */
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
 @layer base {
   :root {
-    /* Brand Colors - Professional HR System */
-    --background: 0 0% 98%;
-    --foreground: 213 31% 12%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 31% 12%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 31% 12%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Primary - Professional Navy Blue */
-    --primary: 213 100% 12%;
-    --primary-foreground: 0 0% 98%;
-    --primary-light: 213 45% 25%;
-    --primary-dark: 213 100% 8%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-    /* Secondary - Teal Accent */
-    --secondary: 180 25% 92%;
-    --secondary-foreground: 180 100% 15%;
-    --secondary-accent: 180 85% 35%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    /* Status Colors */
-    --success: 142 76% 36%;
-    --success-foreground: 0 0% 98%;
-    --warning: 38 92% 50%;
-    --warning-foreground: 38 100% 10%;
-    --danger: 0 84% 60%;
-    --danger-foreground: 0 0% 98%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    /* Neutral Grays */
-    --muted: 220 13% 95%;
-    --muted-foreground: 220 9% 46%;
-    --muted-dark: 220 13% 91%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
-    --accent: 180 85% 35%;
-    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 213 100% 12%;
-
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(213 100% 12%), hsl(213 45% 25%));
-    --gradient-secondary: linear-gradient(135deg, hsl(180 85% 35%), hsl(180 65% 45%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(220 13% 95%));
-
-    /* Shadows */
-    --shadow-soft: 0 2px 8px -2px hsl(213 100% 12% / 0.1);
-    --shadow-medium: 0 4px 20px -4px hsl(213 100% 12% / 0.15);
-    --shadow-strong: 0 8px 32px -8px hsl(213 100% 12% / 0.2);
-
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
 
